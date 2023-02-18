@@ -40,7 +40,7 @@ namespace FinalTask
                     case FileInfo:
                         fileOrDirectory.Delete();
                         break;
-                    default: 
+                    default:
                         throw new Exception("Переданное в метод значение недопустимо");
                 }
             }
